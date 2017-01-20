@@ -9,10 +9,14 @@ Level 2 : The data saved in a netCDF format, plus names changed to ensure standa
 
 The code held within this repository converts Level 1 GASSP data to Level 2, this includes re-naming to GASSP standard names, and adding attribute information.  It is written in Interactive Data Language (IDL).
 
-The IDL proceedure relies on a file called Processed_file_list.txt which contains a list of the files that have been converted to Level 1 format. 
+The IDL proceedure relies on a file called Processed_file_list.txt which contains a list of the files that have been converted to Level 1 format.   List of GASSP Attributes for the Level 2 data and a brief description is given in GASSP_Attribute_Summary.csv
 
+
+<br>
+<br>
 
 Summary of convert_GASSP_Level1_to_Level2_netCDF.pro
+<br>
 
 Script to convert all Level 1 data to Level 2 format (other scripts in this directory convert Level 0 to Level 1).<br>
 
@@ -33,5 +37,4 @@ Code then creates a new data structure including standardised time variable and 
 Additional variable and global attributes are added then the new data structure is written to netCDF.<br>
 
 
-List of GASSP Attributes
 
