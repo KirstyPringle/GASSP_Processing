@@ -1,0 +1,45 @@
+GASSP ATTRIBUTE,DESCRIPTION
+Software_Version,Version of GASSP processing software used to create the Level 2 data
+GASSP_Version,Version of GASSP database
+Species_Short_Name,"Short name of the speacies measured e.g PM2.5, CCN, CN"
+Data_Info,Description expanding on Species_Short_Name
+Additional_Data_Info,Additional Information if required
+Instrument,Instrument used in measrement
+Model_Serial_Number,Instrument serial number
+Cutoff_Low_Diameter,Low cutoff diameter of the instrument used
+Cutoff_High_Diameter,High cutoff diameter of the instrument used
+Size_Definition,Definition of the cutoff diameter (e.g. aerodynamic)
+Calibration_Material_Method,"Info on calibration method, if given"
+Error_Absolute,"Absolute measurement error, if given"
+Error_Relative,"Relative measurement error, if given"
+Error_Characteristics,Further information on instrumental errors
+Error_Bias_Correction,Description of any error bias correction applied to the data 
+pT_Conditions,Pressure and Temperature conditions (e.g. if standard temperature and pressure)
+Inlet_Sample_Flow_Dry,Description of whether sample flow is dry or ambient
+Other_Inlet_Info,Any additional inlet information required
+Platform,"e.g. Aircraft, Ship, Station"
+Platform_Name,"Full name of platform, e.g. aircraft name"
+Flight_No,If required
+Project_Name,Full name of project under whichd data was collected
+Project_URL,Link to web page of project
+Measurement_Mode,"Duration of data collection e.g Long term, campaign"
+Environment,"Geographical environment of the data e.g. North America, East Coast USA, Central & Eastern continental USA"
+Sampling_Conditions,"Description of the type of air sampled e.g. Inflow and outflow of pollution over North America, continental pollution plumes, biomass burning plumes"
+Season,Sampling season e.g. Spring
+Altitude,"Atitude of station / aircraft e.g. BL (boundary layer), LT (lower troposphere),  FT (free troposphere)"
+PI,Principle investigator of the project
+Institute,Institute that collected the data
+Data_Contact,Contact person for the data
+Data_Source,"Source of the data to the GASSP database, e.g. from website, or direct contact with data provider"
+Time_Coordinate,Time coordinate
+Latitude_Coordinate,Latitude coordinate
+Longitude_Coordinate,Longitude coordinate
+Vertical_Coordinate,Vertical coordinate e.g. PRESSURE_ALTITUDE
+Time_Coverage_Start,Time of data coverage start
+Time_Coverage_End,Time of data coverage end
+Lon_Min,Minimum Longitude covered
+Lon_Max,Maximum Longitude covered
+Lat_Min,Minimum Latitude covered
+Lat_Max,Maximum Latitude covered
+Vertical_Min,Minimum Altitude covered
+Vertical_Max,Maximum Altitude covered
