@@ -12,7 +12,7 @@ The code held within this repository converts Level 1 GASSP data to Level 2, thi
 The IDL proceedure relies on a file called Processed_file_list.txt which contains a list of the files that have been converted to Level 1 format. 
 
 
-Readme file for 
+Summary of convert_GASSP_Level1_to_Level2_netCDF.pro
 
 Script to convert all Level 1 data to Level 2 format (other scripts in this directory convert Level 0 to Level 1).<br>
 
